@@ -1,7 +1,7 @@
 --workspace.FallenPartsDestroyHeight = -900000000000000000000
 --[[
                                                            
-       VIEW IT IN RAW                                                    
+       VIEW IT IN (RAW)[https://raw.githubusercontent.com/lazykane/qazwarev2/main/LICENSE.md]                                                    
  _______________________________________________________________________________________________________,                        
   /$$$$$$   /$$$$$$  /$$$$$$$$ /$$      /$$  /$$$$$$  /$$$$$$$  /$$$$$$$$      VERSION:                 |
  /$$__  $$ /$$__  $$|_____ $$ | $$  /$ | $$ /$$__  $$| $$__  $$| $$_____/      1.0.                     |
