@@ -1,6 +1,4 @@
---workspace.FallenPartsDestroyHeight = -900000000000000000000
---[[
-                                                           
+--[[                                                       
        VIEW IT IN (RAW)[https://raw.githubusercontent.com/lazykane/qazwarev2/main/LICENSE.md?token=GHSAT0AAAAAAB2ZWU5FNAIISDOIT4RYNHPYY3LR53Q]                                                    
 ,___________________________________________________________________________________________________________, 
 |                                                                                                           |
@@ -36,6 +34,10 @@
     - https://web.sync.xyz/discord-inv , Our Discord
 
     - QAZWARE© 2022
+
+    - We dont skidded Nova Hub
+
+    - Who Cracked/Deobfuscated They gonna pay 50$ and delete deobfuscated or Getting Info Leak (Not So Bad Info's)
 
     - Script Made by / kane#9695 \ but got this all copyright / кто то \
 
