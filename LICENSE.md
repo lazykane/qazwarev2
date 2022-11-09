@@ -16,8 +16,9 @@
 |___________________________________________________________________________________________________________|                                                                        
                                                                         
                                       
-                                                                                   -- QAZWARE --
-                                                                             QAZWARE COPYRIGHT CLAIM
+               -- QAZWARE --
+          QAZWARE COPYRIGHT CLAIM
+
     Please read this disclaimer carefully before using QAZWARE SOURCE,
     operated by us. The content displayed on the website is the intellectual property of the KTO TO. You may not reuse, republish, or reprint such content without our permission.
     All information posted is merely for educational and informational purposes. It is not intended
