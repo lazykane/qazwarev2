@@ -7,4 +7,6 @@
 **kane**             
 Tik Tok - [@kane.worid](https://tiktok.com/@kane.worid)      
 Discord - [kane#9695](https://discord.gg/tFjU6aCzbq)
-
+# License
+**[License](https://github.com/lazykane/qazwarev2/main/LICENSE.md)**
+**[Raw Version](PASTE)**
