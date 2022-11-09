@@ -11,12 +11,12 @@
 | $$/$$ $$| $$  | $$  /$$/    | $$$/ \  $$$| $$  | $$| $$  \ $$| $$            web.sync.xyz/discord-inv
 |  $$$$$$/| $$  | $$ /$$$$$$$$| $$/   \  $$| $$  | $$| $$  | $$| $$$$$$$$      COPYRIGHT CLAIMED
  \____ $$$|__/  |__/|________/|__/     \__/|__/  |__/|__/  |__/|________/      QAZWARE © 2022
-      \__/                                                               
+      \__/                                                              
                                                                          
                                                                         
                                       
-                                                            -- QAZWARE --
-                                           QAZWARE COPYRIGHT CLAIM
+                                                                                   -- QAZWARE --
+                                                                             QAZWARE COPYRIGHT CLAIM
     Please read this disclaimer carefully before using QAZWARE SOURCE,
     operated by us. The content displayed on the website is the intellectual property of the KTO TO. You may not reuse, republish, or reprint such content without our permission.
     All information posted is merely for educational and informational purposes. It is not intended
@@ -38,6 +38,8 @@
     - Script Made by / kane#9695 \ but got this all copyright / кто то \
 
     - KTO TO can make script Paid/Free. In paid version have some whitelist functions hwid whitelist and key whitelist in Source.
+
+    - kane#9695 gets all COPYRIGHT. But KTO TO HAVES PERMISSION TO USE SCRIPT SOURCE
 ]]
 
 
