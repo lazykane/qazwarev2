@@ -8,5 +8,5 @@
 Tik Tok - [@kane.worid](https://tiktok.com/@kane.worid)      
 Discord - [kane#9695](https://discord.gg/tFjU6aCzbq)
 # License
-**[License](https://github.com/lazykane/qazwarev2/blob/main/LICENSE.md)**    
-**[Raw Version](PASTE)**
+**[License](https://github.com/lazykane/qazwarev2/blob/main/LICENSE.md) - KTO TO have access to Sell SCRIPT NOT SOURCE**    
+**[Raw Version](https://raw.githubusercontent.com/lazykane/qazwarev2/main/LICENSE.md - kane#9695 owns all Copyright**
