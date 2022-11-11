@@ -38,7 +38,7 @@ To See this ASCII VIEW IT IN RAW
 
     - We dont skidded Nova Hub
 
-    - Who Cracked/Deobfuscated They gonna pay 50$ and delete deobfuscated or Getting Info Leak (Not So Bad Info's)
+    - Dont Deobfuscate or Crack 
 
     - Script Made by / kane#9695 \ but got script / кто то \
 
