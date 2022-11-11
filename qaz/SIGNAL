@@ -1,0 +1,102 @@
+
+
+local HttpService = game:GetService("HttpService")
+
+local ENABLE_TRACEBACK = false
+
+local Signal = {}
+Signal.__index = Signal
+Signal.ClassName = "Signal"
+
+
+-- @constructor Signal.new()
+-- @treturn Signal
+function Signal.new()
+	local self = setmetatable({}, Signal)
+
+	self._bindableEvent = Instance.new("BindableEvent")
+	self._argMap = {}
+	self._source = ENABLE_TRACEBACK and debug.traceback() or ""
+
+	
+	self._bindableEvent.Event:Connect(function(key)
+		self._argMap[key] = nil
+
+		
+		if (not self._bindableEvent) and (not next(self._argMap)) then
+			self._argMap = nil
+		end
+	end)
+
+	return self
+end
+
+
+-- @param ... Variable arguments to pass to handler
+-- @treturn nil
+function Signal:Fire(...)
+	if not self._bindableEvent then
+		warn(("Signal is already destroyed. %s"):format(self._source))
+		return
+	end
+
+	local args = table.pack(...)
+
+
+	local key = HttpService:GenerateGUID(false)
+	self._argMap[key] = args
+
+	-- Queues each handler onto the queue.
+	self._bindableEvent:Fire(key)
+end
+
+
+-- @tparam function handler Function handler called with arguments passed when `:Fire(...)` is called
+-- @treturn Connection Connection object that can be disconnected
+function Signal:Connect(handler)
+	if not (type(handler) == "function") then
+		error(("connect(%s)"):format(typeof(handler)), 2)
+	end
+
+	return self._bindableEvent.Event:Connect(function(key)
+		
+
+		local args = self._argMap[key]
+		if args then
+			handler(table.unpack(args, 1, args.n))
+		else
+			error("Missing arg data, probably due to reentrance.")
+		end
+	end)
+end
+
+
+-- @treturn ... Variable arguments from connection
+function Signal:Wait()
+	local key = self._bindableEvent.Event:Wait()
+	local args = self._argMap[key]
+	if args then
+		return table.unpack(args, 1, args.n)
+	else
+		error("Missing arg data, probably due to reentrance.")
+		return nil
+	end
+end
+
+
+-- @treturn nil
+function Signal:Destroy()
+	if self._bindableEvent then
+		-- This should disconnect all events, but in-flight events should still be
+		-- executed.
+
+		self._bindableEvent:Destroy()
+		self._bindableEvent = nil
+	end
+
+	-- Do not remove the argmap. It will be cleaned up by the cleanup connection.
+
+	setmetatable(self, nil)
+end
+
+return Signal
