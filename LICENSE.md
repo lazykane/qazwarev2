@@ -17,8 +17,8 @@ To See this ASCII VIEW IT IN RAW
                -- QAZWARE --
           QAZWARE COPYRIGHT CLAIM
 
-    Please read this disclaimer carefully before using QAZWARE SOURCE,
-    operated by me. The content displayed on the website is the intellectual property of the KTO TO. You may not reuse, republish, or reprint such content without my permission.
+    Please read this disclaimer carefully before using QAZWARE SOURCE or QAZWARE,
+    operated by me. The content displayed on the website is the intellectual property of the kane#9695. You may not reuse, republish, or reprint such content without my permission.
     All information posted is merely for educational and informational purposes. It is not intended
     as a substitute for professional advice. Should you decide to act upon any information on this website, you do so at your own risk.
     While the information on this website has been verified to the best of our abilities, we cannot guarantee that there are no mistakes or errors.
@@ -32,6 +32,7 @@ To See this ASCII VIEW IT IN RAW
     QAZWARE don't continue update's.
     And QAZWARE have HWID Whitelist Function with Key Whitelist so We can get your HWID.
     You must be a developer to understand all of this, if you do not understand contact us: kane#9695
+    
     - join to my Discord
 
     - QAZWARE© 2022
@@ -40,10 +41,6 @@ To See this ASCII VIEW IT IN RAW
 
     - Dont Deobfuscate or Crack 
 
-    - Script Made by / kane#9695 \ but got script / кто то \
+    - Script Made by / kane#9695 \
 
-    - KTO TO can make script Paid/Free. In paid version have some whitelist functions hwid whitelist and key whitelist in Source.
-
-    - kane#9695 gets all COPYRIGHT. But KTO TO HAVES PERMISSION TO USE SCRIPT SOURCE
-
-
+    - kane#9695 gets all COPYRIGHT.
